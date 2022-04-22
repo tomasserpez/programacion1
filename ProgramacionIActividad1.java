@@ -368,9 +368,10 @@ public class ProgramacionIActividad1 {
                         try
                         {
                             double valor = Integer.parseInt(scanner.nextLine());
-                            if (valor > 0 && valor >= valorTotal)
+                            if (valor > 0 && valor >= Math.round(valorTotal * 0.9))
                             {
                                 System.out.println("Se ha realizado un pago de $" + Math.round(valorTotal * 0.9));
+                                System.out.println("El vuelto es de: " + (valor - Math.round(valorTotal * 0.9)));
                             }
                             else
                             {
