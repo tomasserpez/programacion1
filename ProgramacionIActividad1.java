@@ -75,7 +75,7 @@ public class ProgramacionIActividad1 {
         menu();
     }
     //Definimos por cada procedimiento necesario, su función correspondiente para tener un código ordenado
-    
+
     //La función que se encargará del menú
     public static void menu()
     {
@@ -114,8 +114,6 @@ public class ProgramacionIActividad1 {
                 
         }
     }
-    
-    
     //La función que se encargará de la parte de infraestructura
     public static void infraestructura()
     {
@@ -311,8 +309,6 @@ public class ProgramacionIActividad1 {
                 break;
         }
     }
-
-    
     //La función que se encargará de la parte del resumen de pago, así como del método con el que se abonará
     public static void resumen()
     {
@@ -330,7 +326,7 @@ public class ProgramacionIActividad1 {
         System.out.println("End Points: "+endPointsCant);
         menu();
     }
-    
+    //Funcion de pago
     public static void pagar()
     {
         double valorCuotaTotal = 0.0;
